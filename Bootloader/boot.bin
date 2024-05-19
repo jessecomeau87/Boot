@@ -1,0 +1,19 @@
+$ as -o boot.o boot.s 
+$ ld -o boot.bin --oformat binary -e init boot.s 
+$ ls -lh . 
+  3 boot.bin 
+784 boot.o 
+152 boot.s
+
+.code16 
+.global init # makes our label "init" available to the outside 
+init: # this is the beginning of our binary later. 
+  jmp init # jump to "init" 
+.fill 510-(.-init), 1, 0 # add zeroes to make it 510 bytes long
+
+$ as -o boot.o boot.s 
+$ ld -o boot.bin --oformat binary -e init boot.s 
+$ ls -lh . 
+ 510 boot.bin 
+1.3k boot.o 
+ 176 boot.s
