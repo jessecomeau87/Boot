@@ -1,7 +1,7 @@
 # Boot
 BIOS, Master Boot Record, Bootloader, Kernel, Operating System. 
 
-### My first project is to write code for a BIOS, a Bootloader, a Kernel, and an Operating System for a X86 ISA. Qemu amd NASM can be used to test the programs. I am using Visual Studio Code with knowledge of Assembly, Python, and C/C++ languages. In some words, I have studied Computer Science, and into Full-System Simulation. 
+### My first project is to write code for a BIOS, a Master Boot Record, a Bootloader, a Kernel, and an Operating System for a X86 ISA. Qemu amd NASM can be used to test the programs. I am using Visual Studio Code with knowledge of Assembly, Python, and C/C++ languages. In some words, I have studied Computer Science, and into Full-System Simulation. 
 
 ### The Instruction Pointer (EIP) register holds the memory address for the instruction being executed by the processor. EIP is hardcoded to the value 0xFFFFFFF0. Thus, the x86 CPU is hardwired to begin execution at the physical address 0xFFFFFFF0. It is in fact, the last 16 bytes of the 32-bit address space. This memory address is called reset vector.
 
