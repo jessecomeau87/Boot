@@ -1,9 +1,31 @@
 # Boot
 BIOS, Master Boot Record, Bootloader, Kernel, Operating System. 
 
+Ilios Selene "Dedicated Solutions" Business Managemnt and IT
+
+(Business) Entrepreneur: Owner/Founder, CEO, Director, Partner. 
+Modernity Collective Group 
+"Elite Performnace"
+Accounting, Finance, Economics. 
+
+(IT) Cpu Systems Designer: Intelligent Systems. 
+Modernity Distribution Services
+"Future Development"
+Hardware, Operating Systems, Software. 
+
+goal:
+(Education) Phd: Business Psychology.
+University of Chicago
+"Knowledge is Power, Ignorance is Bliss" 
+Industrial Organization  
+
+### README.md
+
 ### My first project is to write code for a BIOS, a Master Boot Record, a Bootloader, a Kernel, and an Operating System for X86 ISAs made by Intel and AMD. 
  
 ### This is the order they are booted. 
+
+### Open-Source Coreboot (BIOS), Limine (Bootloader), Serenity (Operating System) are used as examples. 
  
 ### QEMU, emulator, and NASM, assembler, can be used to test the programs. 
 
@@ -54,3 +76,7 @@ BIOS, Master Boot Record, Bootloader, Kernel, Operating System.
 ### Most Installed Programs are not Open-Source, so I'm using Coreboot (BIOS), Limine (Bootloader), and Serenity (Operating System), as examples. 
 
 ### All coded with Visual Studio Code IDE, Assembly, Python, and C/C++ languages, Tested with QEMU and Assembled with NASM. 
+
+### This is for X86 ISAs made by Intel and AMD. 
+
+### I'll be one step closer to designing my own cpu. The Reactor XPS870 Operating Core Construct. 
