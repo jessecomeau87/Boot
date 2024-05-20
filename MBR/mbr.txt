@@ -1,1 +1,5 @@
 mbr.txt
+
+The Master Boot Record contains the Bootloader. 
+
+It must remain under 512 bytes long. 
