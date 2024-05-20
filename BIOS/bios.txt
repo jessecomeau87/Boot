@@ -3,13 +3,15 @@ bios.txt
 BIOS stands for Basic Input/Output System. 
 It is firmware installed directly into ROM.
 It is the first program to execute during Boot.
-It copies itself into RAM, Shadowing.
+It copies itself into RAM, Shadowing. 
+It loads the Master Boot Record. 
+The MDR contains the Bootloader. 
 It iterates the first 512 bytes, called the boot sector. 
 The boot sector ends with 0xAA55. 
 It then executes code at 0x7C00. 
 This is called the Bootloader. 
 
-BIOS installed is not Open-Source.
-You can find Open-Source BIOS at Coreboot. 
-
-This Code is from research and done in Assembly Language using Fiedka. 
+Installed BIOS is not Open-Source. 
+Documentation and Resources can be found at Coreboot. 
+It has been coded with research, using Assembly, Python and C/C++ programming languages, and Visual Studio Code. And Friedka. 
+Tests run on QEMU Emulator, with NASM Assembler. 
