@@ -1,1 +1,14 @@
 kernel.txt
+
+First thing loaded into RAM during Boot. 
+The core component of an Operating System.
+Acts as an interface between user applications and hardware.
+Well versed in Instruction Set. 
+Translates System Calls to communicate with the CPU. 
+Multitasks.
+Four Functions: Memory management, Process management, 
+Device driver, and System calls and security. 
+
+Installed Kernels are not Open-Source. 
+This Code is written based on research using Assembly Language 
+and Visual Studio Code. 
