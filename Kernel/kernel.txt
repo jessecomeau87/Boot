@@ -10,6 +10,7 @@ Multitasks.
 Four Functions: Memory management, Process management, 
 Device driver, and System calls and security. 
 
-Installed Kernels are not Open-Source. 
-This Code is written based on research using Assembly Language 
-and Visual Studio Code. 
+Installed Kernel is not Open-Source. 
+Documentation and Resources can be found at Coreboot, and OSDev. 
+It has been coded with research, using Assembly, Python and C/C++ programming languages, and Visual Studio Code. 
+Tests run on QEMU Emulator, with NASM Assembler. 
