@@ -1,5 +1,8 @@
 mbr.txt
 
-The Master Boot Record contains the Bootloader. 
+The Master Boot Record contains the Bootloader.
 
-It must remain under 512 bytes long. 
+Installed MBR is not Open-Source. 
+Documentation and Resources can be found at Coreboot, and OSDev. 
+It has been coded with research, using Assembly, Python and C/C++ programming languages, and Visual Studio Code. 
+Tests run on QEMU Emulator, with NASM Assembler. 
