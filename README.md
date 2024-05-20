@@ -1,7 +1,9 @@
 # Boot
 BIOS, Master Boot Record, Bootloader, Kernel, Operating System. 
 
- ### My first project is to write code for a BIOS, a Master Boot Record, a Bootloader, a Kernel, and an Operating System for X86 ISAs made by Intel and AMD. QEMU, emulator, and NASM, assembler, can be used to test the programs. 
+ ### My first project is to write code for a BIOS, a Master Boot Record, a Bootloader, a Kernel, and an Operating System for X86 ISAs made by Intel and AMD. This is the order they are booted. 
+ 
+### QEMU, emulator, and NASM, assembler, can be used to test the programs. 
 
 ### I am using Visual Studio Code with knowledge of Binary, and Hexadecimal nymber systems, with Assembly, Python, and C/C++ programming languages. In some words, I have studied Computer Science, and into Full-System Simulation. 
 
