@@ -1,1 +1,12 @@
-os.txt
+os.txt 
+
+The Operating System is the end of the Boot Process. 
+
+It runs it's own initializations. 
+
+The Kernel runs in the background. 
+
+Installed Operating System is not Open-Source. 
+Documentation and Resources can be found at OSDev. 
+It has been coded with research, using Assembly, Python and C/C++ programming languages, and Visual Studio Code. 
+Tests run on QEMU Emulator, with NASM Assembler. 
