@@ -1,6 +1,7 @@
 kernel.txt
 
 First thing loaded into RAM during Boot. 
+It loads at 0x100000.
 The core component of an Operating System.
 Acts as an interface between user applications and hardware.
 Well versed in Instruction Set. 
