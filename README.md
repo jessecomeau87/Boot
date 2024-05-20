@@ -21,6 +21,8 @@ BIOS, Master Boot Record, Bootloader, Kernel, Operating System.
 
 ### Now, the chipset’s memory map makes sure that 0xFFFFFFF0 is mapped to a certain part of the BIOS, not to the RAM. Meanwhile, the BIOS copies itself to the RAM for faster access. This is called shadowing. The address 0xFFFFFFF0 will contain just a jump instruction to the address in memory where BIOS has copied itself. 
 
+### The BIOS will perform POST. 
+
 ### The Master Boot Record Contains the Bootloader. 
 
 ### The BIOS software first assesses the hardware of the system and looks for boot devices that have an MBR. After that, it checks to see if the final signature is 55AAH by reading the first sector up to 0000:7C00H. 
@@ -48,3 +50,7 @@ BIOS, Master Boot Record, Bootloader, Kernel, Operating System.
 ### The Operating System will run it's own initializations. 
 
 ### This is the Boot Process. Cold/Warm Boot. BIOS, Master Boot Record, Bootloader, Kernel, Operating System. 
+
+### Most Installed Programs are not Open-Source, so I'm using Coreboot (BIOS), Limine (Bootloader), and Serenity (Operating System), as examples. 
+
+### All coded with Visual Studio Code IDE, Assembly, Python, and C/C++ languages, Tested with QEMU and Assembled with NASM. 
