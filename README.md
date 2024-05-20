@@ -23,4 +23,4 @@ BIOS, Master Boot Record, Bootloader, Kernel, Operating System.
 
 ### The bootloader then loads the kernel at the physical address 0x100000. The address 0x100000 is used as the start-address for all big kernels on x86 machines.
 
-### The Kernel initializes the Operating System. It is it's core component. It acts as a Mediator between User Interface and Hardware. It has four functions: 
+### The Kernel initializes the Operating System. It is it's core component. It acts as a Interface between User Applications and Hardware. It has four functions: Memory management, Process management, Device driver, and System calls and security. 
