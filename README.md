@@ -27,6 +27,9 @@ Financial Districts, Toronto, New York, Chicago
 ### My first project is to write code for a BIOS, a Master Boot Record, a Bootloader, a Kernel, and an Operating System for X86 ISAs made by Intel and AMD. 
  
 ### This is the order they are booted. 
+
+### Most installed programs are not Open-Source. 
+
 ### Open-Source Coreboot (BIOS), Limine (Bootloader), Serenity (Operating System) are used as examples. 
  
 ### QEMU, emulator, and NASM, assembler, can be used to test the programs. 
@@ -83,7 +86,11 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ### There are two kinds of Booting: Cold and Warm Booting. 
 
-### The Instruction Pointer (EIP) holds the memory addresses of the Instructions.
+### The Instruction Pointer (EIP) holds the Memory Addresses of the Instructions. 
+
+### The BIOS is the first thing to boot. 
+
+### It is stored on ROM. 
 
 ### The BIOS will perform POST. 
 
@@ -98,6 +105,8 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ### There are three sections to the Master Boot Record: Master Boot Routine, Disk Partition Table, Identification Code. 
 
 ### The Master Boot Record will load the Bootloader at 0x7c00. 
+
+### It 
 
 ### The Bootloader will start the Kernel at 0x100000. 
 
