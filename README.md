@@ -42,11 +42,15 @@ Industrial Organization
 
 ### The BIOS will perform POST. 
 
-### The Master Boot Record Contains the Bootloader. 
+### The BIOS will look for Bootable devices. 
 
-### The BIOS software first assesses the hardware of the system and looks for boot devices that have an MBR. After that, it checks to see if the final signature is 55AAH by reading the first sector up to 0000:7C00H. 
+### The BIOS will load the Master Boot Record, containing the Bootloader. 
 
 ### There are three sections to the Master Boot Record: Master Boot Routine, Disk Partition Table, Identification Code. 
+
+### The Master Boot Record will load the Bootloader. 
+
+### The BIOS software first assesses the hardware of the system and looks for boot devices that have an MBR. After that, it checks to see if the final signature is 55AAH by reading the first sector up to 0000:7C00H. 
 
 ### As the BIOS iterates through the disk hierarchy it attempts find the first readable 512 bytes (called its boot sector) which ends with the magic number 0xAA55. Once found, the BIOS now gives control to the code which has been copied at address location 0x7C00. 
 
