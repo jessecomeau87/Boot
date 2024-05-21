@@ -15,7 +15,12 @@ goal:
 (Education) Phd: Business Psychology.
 University of Chicago
 "Knowledge is Power, Ignorance is Bliss" 
-Industrial Organization  
+Industrial Organization 
+
+Head Office: 
+Dover, De 
+Service Areas: 
+Financial Districts, Toronto, New York, Chicago 
 
 ### README.md
 
@@ -44,11 +49,21 @@ Industrial Organization
 
 ### The BIOS will look for Bootable devices. 
 
+### The BIOS runs through the Boot Sector, the first 512 bytes. 
+
+### This ends in 0x55, 0xaa, in little endian. or 0x55aa. 
+
 ### The BIOS will load the Master Boot Record, containing the Bootloader. 
 
 ### There are three sections to the Master Boot Record: Master Boot Routine, Disk Partition Table, Identification Code. 
 
-### The Master Boot Record will load the Bootloader. 
+### The Master Boot Record will load the Bootloader at 0x7c00. 
+
+### The Bootloader will start the Kernel at 0x100000. 
+
+### The Kernel initializes the Operating System. 
+
+### The Operating System takes control with the Kernel running in the background. 
 
 ### The BIOS software first assesses the hardware of the system and looks for boot devices that have an MBR. After that, it checks to see if the final signature is 55AAH by reading the first sector up to 0000:7C00H. 
 
