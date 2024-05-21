@@ -94,7 +94,9 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ### The BIOS will perform POST. 
 
-### The BIOS will look for Bootable devices. 
+### It will look for Bootable devices. 
+
+### It launches the first 440 bytes (the Master Boot Record bootstrap code area)
 
 ### The BIOS runs through the Boot Sector, the first 512 bytes. 
 
@@ -106,7 +108,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ### The Master Boot Record will load the Bootloader at 0x7c00. 
 
-### It 
+### It has First Stage, Second Stage, Embedded and Multi Stage, and Network Booting. 
 
 ### The Bootloader will start the Kernel at 0x100000. 
 
