@@ -1,8 +1,18 @@
 # Boot
 BIOS, Master Boot Record, Bootloader, Kernel, Operating System.
 
-Ilios Selene "Dedicated Solutions" Business Managemnt and IT Conglomerate
-(Business) Entrepreneur: Owner/Founder, CEO, Director, Partner. Modernity Collective Group
+
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+
+Ilios Selene "Dedicated Solutions" 
+Business Managemnt and IT 
+Conglomerate
+
+(Business) Entrepreneur: Owner/Founder, CEO, Director, Partner. 
+Modernity Collective Group
 "Elite Performnace"
 Accounting, Finance, Economics.
 
@@ -19,12 +29,12 @@ Industrial Organization
 Head Office:
 Dover, De
 Service Areas:
-Financial Districts, Toronto, New York, Chicago
+Financial Districts, 
+Toronto, New York, Chicago
 
 
 
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
 
 
 
@@ -40,9 +50,11 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ### QEMU, emulator, and NASM, assembler, can be used to test the programs.
 
-### I am using Visual Studio Code with knowledge of Binary, and Hexadecimal nymber systems, with Assembly, Python, and C/C++ programming languages, and Computer Architecture.
+### I am using Visual Studio Code IDE with knowledge of Binary, and Hexadecimal nymber systems, with Assembly, Python, and C/C++ programming languages, and Computer Architecture.
 
-### In some words, I have studied Computer Science, and into Full-System Simulation.
+### In some words, I have studied Computer Science, and into Full-System Simulation. 
+
+### I want to design my own Cpu, the Reactor XPS870 Operating Core Construct. 
 
 
 
@@ -56,11 +68,11 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ### 32 bit General Register example.
 
-32 bit  8 bit  16 bit  8 bit
-EAX      AH      AX     AL
-EBX      BH      BX     BL
-ECX      CH      CX     CL
-EDX      DH      DX     DL
+32 bit  8 bit  16 bit  8 bit, 
+EAX      AH      AX     AL, 
+EBX      BH      BX     BL, 
+ECX      CH      CX     CL, 
+EDX      DH      DX     DL, 
 
 A = Accumulator
 B = Base
@@ -70,12 +82,19 @@ D = Data
 H = High
 L = Low
 
-### There are three main parts to the Central Processing Unit (CPU): The Control Unit (CU), the Arithmetic and Logic Unit (ALU), and the Memory Unit.
+### There are three main parts to the Central Processing Unit (CPU): The Control Unit (CU), the Arithmetic and Logic Unit (ALU), and the Memory Unit. 
+
+### The CPU has four cycles: Fetch, Decode, Execute, Store.
+
+### Speed depends on the number of Clock Cycles needed to execute an instruction. 
+
+### A Clock Cycle is the time taken between two pulses of an oscillator
+
+### a 16 bit Instruction Format has three parts, Addressing Mode (15th bit), OpCode (12, 13, 14th bits), and Operand Address (0 to 11th bit).  
 
 
 
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
 
 
 
@@ -89,10 +108,11 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 
 
-
 ### There are two kinds of Booting: Cold and Warm Booting.
 
 ### The Instruction Pointer (EIP) holds the Memory Addresses of the Instructions.
+
+### The Reset vector is at 0xFFFFFFF0
 
 ### The BIOS is the first thing to boot.
 
@@ -116,7 +136,9 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ### It has First Stage, Second Stage, Embedded and Multi Stage, and Network Booting.
 
-### The Bootloader will start the Kernel at 0x100000.
+### The Bootloader will start the Kernel at 0x100000. 
+
+### It acts as a Interface between User Applications and Hardware.
 
 ### The Kernel initializes the Operating System.
 
@@ -124,10 +146,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 
 
-
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
-
 
 
 
@@ -159,18 +178,15 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 
 
-
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
-
 
 
 
 ### This is the Boot Process. Cold/Warm Boot. BIOS, Master Boot Record, Bootloader, Kernel, Operating System.
 
-### Most Installed Programs are not Open-Source, so I'm using Coreboot (BIOS), Limine (Bootloader), and Serenity (Operating System), as examples.
+### Most Installed Programs are not Open-Source, so I'm using Open-Source Coreboot (BIOS), Limine (Bootloader), and Serenity (Operating System), as examples.
 
-### All coded with Visual Studio Code IDE, Assembly, Python, and C/C++ languages, Tested with QEMU and Assembled with NASM.
+### All Programs coded with research, Visual Studio Code IDE, Assembly, Python, and C/C++ languages, Emulated with QEMU and Assembled with NASM.
 
 ### This is for X86 ISAs made by Intel and AMD.
 
