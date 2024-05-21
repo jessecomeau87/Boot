@@ -11,7 +11,6 @@ Modernity Distribution Services
 "Future Development"
 Hardware, Operating Systems, Software.
 
-goal:
 (Education) Phd: Business Psychology.
 University of Chicago
 "Knowledge is Power, Ignorance is Bliss" 
