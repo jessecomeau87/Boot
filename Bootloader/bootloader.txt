@@ -12,6 +12,6 @@ The Bootloader's main function is to load the Operating System.
 Once executed, it turns over control to the Operating System. 
 
 Installed Bootloader is not Open-Source. 
-Documentation and Resources can be found at Coreboot, OSDev. 
-It has been coded with research, using Assembly, Python and C/C++ programming languages, and Visual Studio Code. 
+Documentation and Resources can be found at OSDev. 
+This has been coded with research, using Assembly, Python and C/C++ programming languages, and Visual Studio Code IDE. 
 Tests run on QEMU Emulator, with NASM Assembler. 
