@@ -156,6 +156,15 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ### The Operating System will run it's own initializations. 
 
+
+
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+
+
+
 ### This is the Boot Process. Cold/Warm Boot. BIOS, Master Boot Record, Bootloader, Kernel, Operating System. 
 
 ### Most Installed Programs are not Open-Source, so I'm using Coreboot (BIOS), Limine (Bootloader), and Serenity (Operating System), as examples. 
