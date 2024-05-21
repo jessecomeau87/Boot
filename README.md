@@ -2,7 +2,6 @@
 BIOS, Master Boot Record, Bootloader, Kernel, Operating System. 
 
 Ilios Selene "Dedicated Solutions" Business Managemnt and IT Conglomerate 
-
 (Business) Entrepreneur: Owner/Founder, CEO, Director, Partner. Modernity Collective Group 
 "Elite Performnace"
 Accounting, Finance, Economics. 
