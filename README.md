@@ -22,6 +22,13 @@ Dover, De
 Service Areas: 
 Financial Districts, Toronto, New York, Chicago 
 
+
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+
+
 ### README.md
 
 ### My first project is to write code for a BIOS, a Master Boot Record, a Bootloader, a Kernel, and an Operating System for X86 ISAs made by Intel and AMD. 
