@@ -1,17 +1,16 @@
 # Boot
 BIOS, Master Boot Record, Bootloader, Kernel, Operating System. 
 
-Ilios Selene "Dedicated Solutions" Business Managemnt and IT
+Ilios Selene "Dedicated Solutions" Business Managemnt and IT Conglomerate 
 
-(Business) Entrepreneur: Owner/Founder, CEO, Director, Partner. 
-Modernity Collective Group 
+(Business) Entrepreneur: Owner/Founder, CEO, Director, Partner. Modernity Collective Group 
 "Elite Performnace"
 Accounting, Finance, Economics. 
 
 (IT) Cpu Systems Designer: Intelligent Systems. 
 Modernity Distribution Services
 "Future Development"
-Hardware, Operating Systems, Software. 
+Hardware, Operating Systems, Software.
 
 goal:
 (Education) Phd: Business Psychology.
@@ -24,7 +23,6 @@ Industrial Organization
 ### My first project is to write code for a BIOS, a Master Boot Record, a Bootloader, a Kernel, and an Operating System for X86 ISAs made by Intel and AMD. 
  
 ### This is the order they are booted. 
-
 ### Open-Source Coreboot (BIOS), Limine (Bootloader), Serenity (Operating System) are used as examples. 
  
 ### QEMU, emulator, and NASM, assembler, can be used to test the programs. 
@@ -64,7 +62,6 @@ Industrial Organization
 ### The Kernel initializes the Operating System. It is it's core component. It acts as a Interface between User Applications and Hardware. 
 
 ### It has four functions: Memory management, Process management, Device driver, and System calls and Security. 
-
 ### The Kernel does two things, intitialises devices and loads initrd module, mounts root filesystem 
 
 ### The Operating System is now loaded, with full control, and the Kernel running in the background. 
