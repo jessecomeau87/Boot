@@ -31,19 +31,59 @@ Financial Districts, Toronto, New York, Chicago
  
 ### QEMU, emulator, and NASM, assembler, can be used to test the programs. 
 
-### I am using Visual Studio Code with knowledge of Binary, and Hexadecimal nymber systems, with Assembly, Python, and C/C++ programming languages. 
+### I am using Visual Studio Code with knowledge of Binary, and Hexadecimal nymber systems, with Assembly, Python, and C/C++ programming languages, and Computer Architecture. 
 
 ### In some words, I have studied Computer Science, and into Full-System Simulation. 
 
+
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+
+### Binary = 0, 1. Hexidecimal = 1-9, a-f. 
+
+### 0x signifies Hexidecimal. 
+
+### 32 bit General Register example. 
+
+32 bit  8 bit  16 bit  8 bit
+EAX      AH      AX     AL
+EBX      BH      BX     BL
+ECX      CH      CX     CL
+EDX      DH      DX     DL 
+
+A = Accumulator 
+B = Base 
+C = Counter 
+D = Data 
+
+H = High 
+L = Low 
+
+### There are three main parts to the Central Processing Unit (CPU): The Control Unit (CU), the Arithmetic and Logic Unit (ALU), and the Memory Unit. 
+
+
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+
+
+### Each program has a .txt file in it's folder with a brief description.
+
 ### Next, is a brief description on the steps used by a cpu, from start to finish, to Boot. This is all Low-Level Programming. 
 
-### Each program has a .txt file in it's folder with a brief description. 
+
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+
 
 ### There are two kinds of Booting: Cold and Warm Booting. 
 
-### The Instruction Pointer (EIP) register holds the memory address for the instruction being executed by the processor. EIP is hardcoded to the value 0xFFFFFFF0. Thus, the x86 CPU is hardwired to begin execution at the physical address 0xFFFFFFF0. It is in fact, the last 16 bytes of the 32-bit address space. This memory address is called reset vector.
-
-### Now, the chipset’s memory map makes sure that 0xFFFFFFF0 is mapped to a certain part of the BIOS, not to the RAM. Meanwhile, the BIOS copies itself to the RAM for faster access. This is called shadowing. The address 0xFFFFFFF0 will contain just a jump instruction to the address in memory where BIOS has copied itself. 
+### The Instruction Pointer (EIP) holds the memory addresses of the Instructions.
 
 ### The BIOS will perform POST. 
 
@@ -63,7 +103,11 @@ Financial Districts, Toronto, New York, Chicago
 
 ### The Kernel initializes the Operating System. 
 
-### The Operating System takes control with the Kernel running in the background. 
+### The Operating System takes control with the Kernel running in the background.  
+
+### The Instruction Pointer (EIP) register holds the memory address for the instruction being executed by the processor. EIP is hardcoded to the value 0xFFFFFFF0. Thus, the x86 CPU is hardwired to begin execution at the physical address 0xFFFFFFF0. It is in fact, the last 16 bytes of the 32-bit address space. This memory address is called reset vector.
+
+### Now, the chipset’s memory map makes sure that 0xFFFFFFF0 is mapped to a certain part of the BIOS, not to the RAM. Meanwhile, the BIOS copies itself to the RAM for faster access. This is called shadowing. The address 0xFFFFFFF0 will contain just a jump instruction to the address in memory where BIOS has copied itself. 
 
 ### The BIOS software first assesses the hardware of the system and looks for boot devices that have an MBR. After that, it checks to see if the final signature is 55AAH by reading the first sector up to 0000:7C00H. 
 
