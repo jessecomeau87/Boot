@@ -1,5 +1,5 @@
 # Boot
-BIOS, Master Boot Record, Bootloader, Kernel, Operating System.
+## BIOS, Master Boot Record, Bootloader, Kernel, Operating System.
 
 
 
@@ -38,23 +38,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 
 
-### README.md
-
-### My first project is to write code for a BIOS, a Master Boot Record, a Bootloader, a Kernel, and an Operating System for X86 ISAs made by Intel and AMD.
-
-### This is the order they are booted.
-
-### Most installed programs are not Open-Source.
-
-### Open-Source Coreboot (BIOS), Limine (Bootloader), Serenity (Operating System) are used as examples.
-
-### QEMU, emulator, and NASM, assembler, can be used to test the programs.
-
-### I am using Visual Studio Code IDE with knowledge of Binary, and Hexadecimal nymber systems, with Assembly, Python, and C/C++ programming languages, and Computer Architecture.
-
-### In some words, I have studied Computer Science, and into Full-System Simulation. 
-
-### I want to design my own Cpu, the Reactor XPS870 Operating Core Construct. 
+## README.md
 
 
 
@@ -62,12 +46,147 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 
 
-### Binary = 0, 1. Hexidecimal = 1-9, a-f.
+## Important Information
 
-### 0x signifies Hexidecimal.
+- Each folder containing a Program has a .txt file with a brief description.
 
-### 32 bit General Register example.
+- Anyone can Read/Write. 
 
+- Example will be put in example.file_extension. 
+
+- Main will be put in main.file_extension.
+
+- If you want to add a file, put your initials example_initials.file_extension.
+
+Nice Project!
+
+
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+
+## Introduction
+
+- My first project is to write code for a BIOS, a Master Boot Record, a Bootloader, a Kernel, and an Operating System for X86 ISAs made by Intel and AMD.
+
+- This is the order they are booted.
+
+- Most installed programs are not Open-Source.
+
+- Open-Source Coreboot (BIOS), Limine (Bootloader), Serenity (Operating System) are used as examples.
+
+- QEMU, emulator, and NASM, assembler, can be used to test the Programs.
+
+- I am using Visual Studio Code IDE, with knowledge of Decimal, Binary, Octal, and Hexadecimal Number Systems, and finally, with Assembly, Python, and C/C++ Programming Languages.
+
+- In some words, I have studied Computer Science, and into Full-System Simulation. 
+
+- I want to design my own Computer, the Reactor XPS870 Operating Core Construct.
+
+Let's Go!
+
+
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+
+## Computer Science 
+
+- Basic Electronics has: Resistor, Capacitor, Inductor, Transformer, Diode, Transistor.
+
+- The transistor, a silicon semiconductor, was invented in 1956.
+
+- They won a Nobel Prize in Physics for it.
+
+- Number Systems: Decimal = 0-9, Binary = 0, 1, Octal = 0-8, Hexidecimal = 1-9 and a-f.
+
+- There are Conversions for each pair.
+
+- Each Number System has a: Radix, Base, Weight.
+
+- The Radix is the number of Decimals in each position.
+
+- The Base is the same as the Radix.
+
+- The Weight is the Base and the Power Of.
+
+- The Power Of is the number of the Position.
+
+- Binary: 1 = on, 0 = off.
+
+- Each Position signifies 1 bit.
+
+- 8 bits = 1 byte.
+
+- Prefix = 0x, Suffix = h, signifies Hexidecimal.
+
+- Little Endian = Least significant byte first.
+
+- Big Endian = Most significant byte first. 
+
+```
+Dec.  Bin.  Hex.
+0     0     0
+1     1     1
+2     10    2
+3     11    3
+4     100   4
+5     101   5
+6     110   6
+7     111   7
+8     1000  8
+9     1001  9
+10    1010  a
+11    1011  b
+12    1100  c
+13    1101  d
+14    1110  e
+15    1111  f
+```
+
+```
+16 bit (4 bytes):
+Bin: 0100 0111 1110 1101
+Hex: 47ed
+```
+
+```
+Dec Weight: 10*
+Bin Weight: 2*
+Oct Weight: 8*
+Hex Weight: 16*
+```
+
+```
+Hex: 0x55aa, 55aah.
+```
+
+```
+Little Endian: 0x55aa, 55aah.
+Big Endian: 0xaa55, aa55h.
+```
+
+- A Digital Circuit is Binary.
+
+- It uses Boolean Algebra and the Truth Table.
+
+- I has Input/Output.
+
+- It can have Gates.
+
+- It can have Read/Write Capabilities.
+
+- A Group of Latches form a Register.
+
+- A grid of Latches with MultiPlexors form a Matrix.
+
+- An Address is the Intersection of a Matrix. Row and Column.
+
+- 32 bit General Register example.
+
+```
 32 bit  8 bit  16 bit  8 bit, 
 EAX      AH      AX     AL, 
 EBX      BH      BX     BL, 
@@ -81,16 +200,95 @@ D = Data
 
 H = High
 L = Low
+```
 
-### There are three main parts to the Central Processing Unit (CPU): The Control Unit (CU), the Arithmetic and Logic Unit (ALU), and the Memory Unit. 
+- 32 bit Index Register example.
 
-### The CPU has four cycles: Fetch, Decode, Execute, Store.
+```
+32 bit  16 bit,
+ESI     SI,
+EDI     DI,
+EBP     BP,
+ESP     SP,
 
-### Speed depends on the number of Clock Cycles needed to execute an instruction. 
+SI: Source Index.
+DI: Destination Index.
+BP: Base Pointer.
+SP: Stack Pointer.
+```
 
-### A Clock Cycle is the time taken between two pulses of an oscillator
+```
+E: 32 bit.
+R: 64 bit.
+```
 
-### a 16 bit Instruction Format has three parts, Addressing Mode (15th bit), OpCode (12, 13, 14th bits), and Operand Address (0 to 11th bit).  
+- There are three main parts to the Central Processing Unit (CPU): The Control Unit (CU), the Arithmetic and Logic Unit (ALU), and the Memory Unit.
+
+- The CPU's purpose is to execute Programs.
+
+- Programs are made up of Instructions.
+
+- The Instruction Cycle has four cycles: Fetch, Decode, Execute, Store.
+
+- It takes a certain amount of Machine Cycles to execute an Instruction Cycle.
+
+- Speed depends on the number of Clock Cycles needed to execute an instruction. 
+
+- A Clock Cycle is the time taken between two pulses of an oscillator.
+
+- A CPU performs a Clock Cycle, Machine Cycle, Instruction Cycle, respectively.
+
+- 16 bit Instruction Format:
+
+```
+Prefix, OpCode, Mod-R/M, SIB, Disp, Imm.
+```
+  
+- Required:
+
+```
+Opcode, Disp, Imm.
+```
+
+- A Compiler translates Intructions to Machine.
+
+- There are Asseblers and Linkers.
+
+- There are Low Level and High Level Programming.
+
+- They are used to make Intructions that make up Programs.
+
+- They are written in Code.
+
+- Each Programming Language's Intruction Code have their own Syntax.
+
+- Incorrect Syntax will generate an Error.
+
+- CyberSecurity consists of Debugging and Reverse Engineering Concepts.
+
+- Data Structures and Algorithms are an important part of Computer Science.
+
+- Data Structures: Primitive, Non Primitive.
+
+- Primitive: Numeric, Non Numeric.
+
+- Non Primitive: Linear, Non Linear.
+
+- Algorithms: Input, Output, Finiteness, Definiteness, Effectiveness.
+
+- They help CPUs solve Problems.
+
+- An Operating Sytsme is an Interface.
+
+- Four of it's Functions: Memory Management, Processor Management, Device Management, File Management.
+
+- It has four Processes: Stack, Heap, Data, Text. 
+
+- It has Scheduling.
+
+- It has Threads.
+
+This Should Help.
 
 
 
@@ -98,51 +296,45 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 
 
-### Each program has a .txt file in it's folder with a brief description.
+## Boot Process
 
-### Next, is a brief description on the steps used by a cpu, from start to finish, to Boot. This is all Low-Level Programming.
+- There are two kinds of Booting: Cold and Warm Booting.
 
+- The Instruction Pointer (EIP) holds the Memory Addresses of the Instructions.
 
+- The Reset vector is at 0xFFFFFFF0
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+- The BIOS is the first thing to boot.
 
+- It is stored on ROM and FLASH Memory.
 
+- The BIOS will perform POST.
 
-### There are two kinds of Booting: Cold and Warm Booting.
+- It will look for Bootable devices.
 
-### The Instruction Pointer (EIP) holds the Memory Addresses of the Instructions.
+- It launches the first 440 bytes (the Master Boot Record bootstrap code area)
 
-### The Reset vector is at 0xFFFFFFF0
+- The BIOS runs through the Boot Sector, the first 512 bytes.
 
-### The BIOS is the first thing to boot.
+- This ends in 0x55, 0xaa, in little endian. or 0x55aa.
 
-### It is stored on ROM.
+- The BIOS will load the Master Boot Record, containing the Bootloader.
 
-### The BIOS will perform POST.
+- There are three sections to the Master Boot Record: Master Boot Routine, Disk Partition Table, Identification Code.
 
-### It will look for Bootable devices.
+- The Master Boot Record will load the Bootloader at 0x7c00.
 
-### It launches the first 440 bytes (the Master Boot Record bootstrap code area)
+- It has First Stage, Second Stage, Embedded and Multi Stage, and Network Booting.
 
-### The BIOS runs through the Boot Sector, the first 512 bytes.
+- The Bootloader will start the Kernel at 0x100000. 
 
-### This ends in 0x55, 0xaa, in little endian. or 0x55aa.
+- It acts as a Interface between User Applications and Hardware.
 
-### The BIOS will load the Master Boot Record, containing the Bootloader.
+- The Kernel initializes the Operating System.
 
-### There are three sections to the Master Boot Record: Master Boot Routine, Disk Partition Table, Identification Code.
+- The Operating System takes control with the Kernel running in the background.
 
-### The Master Boot Record will load the Bootloader at 0x7c00.
-
-### It has First Stage, Second Stage, Embedded and Multi Stage, and Network Booting.
-
-### The Bootloader will start the Kernel at 0x100000. 
-
-### It acts as a Interface between User Applications and Hardware.
-
-### The Kernel initializes the Operating System.
-
-### The Operating System takes control with the Kernel running in the background.
+That's it!
 
 
 
@@ -182,12 +374,26 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 
 
-### This is the Boot Process. Cold/Warm Boot. BIOS, Master Boot Record, Bootloader, Kernel, Operating System.
+## Coclusion
 
-### Most Installed Programs are not Open-Source, so I'm using Open-Source Coreboot (BIOS), Limine (Bootloader), and Serenity (Operating System), as examples.
+- Computer Science helps explain what a Cpu is and does. 
 
-### All Programs coded with research, Visual Studio Code IDE, Assembly, Python, and C/C++ languages, Emulated with QEMU and Assembled with NASM.
+- This is the Boot Process. Cold/Warm Boot. BIOS, Master Boot Record, Bootloader, Kernel, Operating System.
 
-### This is for X86 ISAs made by Intel and AMD.
+- Most Installed Programs are not Open-Source, so I'm using Open-Source Coreboot (BIOS), Limine (Bootloader), and Serenity (Operating System), as examples.
 
-### I'll be one step closer to designing my own cpu. The Reactor XPS870 Operating Core Construct.
+- All Programs coded with research, Visual Studio Code IDE, Assembly, Python, and C/C++ languages, Emulated with QEMU and Assembled with NASM.
+
+- This is for X86 ISAs made by Intel and AMD.
+
+ I'll be one step closer to designing my own cpu. The Reactor XPS870 Operating Core Construct. 
+
+
+
+ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+
+ Jesse Comeau
+ Ilios Selene
+
