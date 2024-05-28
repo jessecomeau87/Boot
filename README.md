@@ -392,7 +392,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 - The Instruction Pointer (EIP) holds the Memory Addresses of the Instructions.
 
-- The Reset vector is at '0xFFFFFFF0'.
+- The Reset vector is at `0xFFFFFFF0`.
 
 - '0xFFFFFFF0' is mapped to a certain part of the BIOS.
 
