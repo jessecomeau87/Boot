@@ -351,7 +351,7 @@ Opcode, Disp, Imm.
 - It has Scheduling.
 
 - It has Threads.
- 
+- 
 ### Cloud
 
 - Cloud is a Network.
@@ -386,69 +386,100 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ## Boot Process
 
-### Reset Vector
+### Intro
 
 - There are two kinds of Booting: Cold and Warm Booting.
-
+ 
+- There is Real Mode and Protected Mode. 
+ 
 - The Instruction Pointer (EIP) holds the Memory Addresses of the Instructions.
+ 
+### Reset Vector
 
 - The Reset vector is at `0xFFFFFFF0`.
+ 
+- It is the first Instruction executed. 
 
-- '0xFFFFFFF0' is mapped to a certain part of the BIOS.
+- The Motherboard ensures that the Instruction at `0xFFFFFFF0` is a Jump to the memory location mapped to the BIOS Entry Point.  
 
 ### Bios
 
+- We start off in Real Mode. 
+
 - The BIOS is the first thing to boot.
 
-- It is stored on ROM and FLASH Memory.
+- The BIOS is stored on ROM and FLASH Memory, at 0xFFFFF
 
 - It copies itself to RAM, Shadowing. 
-
-- `0xFFFFFFF0` has a jump instruction to where the it Shadowed.
+- `0xFFFFFFFF` has a jump instruction to where the it Shadowed.
 
 - The BIOS will perform POST.
 
-- It will look for Bootable devices.
+- It will look for Bootable Devices.
+ 
+- The BIOS will only boot an MBR from a device if that device is in the Boot Sequence, and if it formatted correctly. 
 
-- It launches the first 440 bytes (the Master Boot Record bootstrap code area)
+- The BIOS will load the Master Boot Record at `0x7c00`, containing the Bootloader.
 
-- The BIOS iterates through the Boot Sector, the first 512 bytes.
+### Master Boot Record 
+
+- When the BIOS looks for Bootable Devices:
+ 
+- It calls code stored in the Master Boot Record at the start of disk 0. 
+
+- It launches the first 440 bytes (the Master Boot Record Bootstrap Code area). 
+ 
+- The next 6 bytes are for Optional Code. 
+
+- The next 64 bytes (4 x 16) are for four Partion Code. 
+
+- The BIOS iterates through the Master Boot Record/Boot Sector, the first 512 bytes.
 
 - This ends in `0x55, 0xaa`.
 
-- The BIOS will load the Master Boot Record, containing the Bootloader.
-
-### Master Boot Record
-
+- The Master Boot Record is the Boot Sector of a Hard Disk. First 512 bytes. 
+ 
 - There are three sections to the Master Boot Record: Master Boot Routine, Disk Partition Table, Identification Code.
 
-- The Master Boot Record will load the Bootloader at `0x7c00`.
+- The first 446 bytes `0x000 - 0x1BC` hold Bootstrap and Optional Code, the Master Boot Routine. The next 4 x 16 bytes `0x1BE - 0x1EE` contain four Partitions, the Disk Partition Table. The last 2 bytes `0x1FE`, are for the Boot Signature, `0x55, 0xaa`, Identification Code. 
+
+- The Boot Signature tells the BIOS it is bootable. 
+
+- The Master Boot Record will load the Bootloader. Stage 1 and Stage 2 Code. 
 
 ### Bootloader
 
-- CPU runs in 16 bit mode. 
+- It has First Stage, Second Stage, Embedded and Multi Stage, and Network Booting. 
 
-- Bootloader Instructions have to stay below 512 bytes. 
-
-- It has First Stage, Second Stage, Embedded and Multi Stage, and Network Booting.
+- It will Load Filesystem Drivers, Configuration File, Supporting Modules, Display Menu, Load Operating System. 
 
 - The Bootloader will start the Kernel at `0x100000`. 
 
-### Kernel
+### Kernel 
 
-- It has four functions: Memory management, Process management, Device Driver, and System calls and Security.
+- We are in Protected Mode.
 
-- It acts as a Interface between User Applications and Hardware.
+- There are Main, and SubSet Kernel Models. 
 
-- It's the Core Component of an Operating System.
+- Main: Monolithic, Micro Kernels. 
+
+- SubSet: Hybrid, Modular, Nano, Exo, Kernels
+
+- They act as a Interface between User Applications and Hardware.
+
+- They're the Core Components of an Operating System.
+
+- They have four functions: Memory management, Process management, Device Driver, and System calls and Security.
 
 - The Kernel initializes the Operating System.
 
 ### Operating System
 
-- The Operating System takes full control with the Kernel running in the background.
+- The Operating System is an Interface between User Applications and Hardware. 
 
-- The Operating System will run it's own initializations. 
+- It takes full control with the Kernel running in the background.
+
+- It will run it's own initializations. 
 
 That's it!
 
@@ -460,11 +491,11 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ## Conclusion
 
-- Computer Science helps explain what a computer is and does.
+- Computer Science helps explain what a Cpu is and does. 
+ 
+- The Booting Process helps explain what happens when you turn your computer on.
 
-- Booting Process helps explain what happens when you turn your computer on. 
-
-- This is the Boot Process. Cold/Warm Boot. BIOS, Master Boot Record, Bootloader, Kernel, Operating System. 
+- This is the Boot Process. Cold/Warm Boot. BIOS, Master Boot Record, Bootloader, Kernel, Operating System.
 
 - Most Installed Programs are not Open-Source, so I'm using Open-Source Coreboot (BIOS), Limine (Bootloader), and Serenity (Operating System), as examples.
 
@@ -484,3 +515,4 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 Jesse Comeau
 Ilios Selene
+Reactor Computing
