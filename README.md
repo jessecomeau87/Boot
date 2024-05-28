@@ -404,7 +404,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 - It copies itself to RAM, Shadowing. 
 
-- '0xFFFFFFF0' has a jump instruction to where the it Shadowed.
+- `0xFFFFFFF0` has a jump instruction to where the it Shadowed.
 
 - The BIOS will perform POST.
 
@@ -414,7 +414,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 - The BIOS iterates through the Boot Sector, the first 512 bytes.
 
-- This ends in '0x55, 0xaa'.
+- This ends in `0x55, 0xaa`.
 
 - The BIOS will load the Master Boot Record, containing the Bootloader.
 
@@ -422,7 +422,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 - There are three sections to the Master Boot Record: Master Boot Routine, Disk Partition Table, Identification Code.
 
-- The Master Boot Record will load the Bootloader at '0x7c00'.
+- The Master Boot Record will load the Bootloader at `0x7c00`.
 
 ### Bootloader
 
@@ -432,7 +432,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 - It has First Stage, Second Stage, Embedded and Multi Stage, and Network Booting.
 
-- The Bootloader will start the Kernel at '0x100000'. 
+- The Bootloader will start the Kernel at `0x100000`. 
 
 ### Kernel
 
