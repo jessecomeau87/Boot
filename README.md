@@ -351,7 +351,7 @@ Opcode, Disp, Imm.
 - It has Scheduling.
 
 - It has Threads.
-- 
+ 
 ### Cloud
 
 - Cloud is a Network.
