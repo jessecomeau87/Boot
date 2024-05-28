@@ -298,11 +298,19 @@ Prefix, OpCode, Mod-R/M, SIB, Disp, Imm.
 Opcode, Disp, Imm.
 ```
 
-### Translation
+### Language Processing System
 
-- A Compiler translates Intructions to Machine.
+- Process: Pre-Processor, Compiler, Assembler, Linker, Loader, Memory.
 
-- There are Asseblers and Linkers.
+- Pre-Processor: Produces Input for the Compiler.
+
+- Compiler Phases: Lexical, Syntax, and Semantic Analyzer, Intermediate Code Generator, Machine independant Code Optimizer, Code Generator, Machine Dependant Code Optimizer.
+
+- Assembler: Translates Assembly Language into Machine Code, and creates an Object file.
+
+- Linker: Links and Merges various Object files to create an Executable.
+
+- Loader/Memory: Loads Executable files into Memory and executes them.
 
 ### Programming Languages 
 
@@ -384,9 +392,9 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 - The Instruction Pointer (EIP) holds the Memory Addresses of the Instructions.
 
-- The Reset vector is at 0xFFFFFFF0.
+- The Reset vector is at '0xFFFFFFF0'.
 
-- 0xFFFFFFF0 is mapped to a certain part of the BIOS.
+- '0xFFFFFFF0' is mapped to a certain part of the BIOS.
 
 ### Bios
 
@@ -396,7 +404,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 - It copies itself to RAM, Shadowing. 
 
-- 0xFFFFFFF0 has a jump instruction to where the it Shadowed.
+- '0xFFFFFFF0' has a jump instruction to where the it Shadowed.
 
 - The BIOS will perform POST.
 
@@ -406,7 +414,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 - The BIOS iterates through the Boot Sector, the first 512 bytes.
 
-- This ends in 0x55, 0xaa.
+- This ends in '0x55, 0xaa'.
 
 - The BIOS will load the Master Boot Record, containing the Bootloader.
 
@@ -414,7 +422,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 - There are three sections to the Master Boot Record: Master Boot Routine, Disk Partition Table, Identification Code.
 
-- The Master Boot Record will load the Bootloader at 0x7c00.
+- The Master Boot Record will load the Bootloader at '0x7c00'.
 
 ### Bootloader
 
@@ -424,7 +432,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 - It has First Stage, Second Stage, Embedded and Multi Stage, and Network Booting.
 
-- The Bootloader will start the Kernel at 0x100000. 
+- The Bootloader will start the Kernel at '0x100000'. 
 
 ### Kernel
 
@@ -452,9 +460,11 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ## Conclusion
 
-- Computer Science helps explain what a Cpu is and does. 
+- Computer Science helps explain what a computer is and does.
 
-- This is the Boot Process. Cold/Warm Boot. BIOS, Master Boot Record, Bootloader, Kernel, Operating System.
+- Booting Process helps explain what happens when you turn your computer on. 
+
+- This is the Boot Process. Cold/Warm Boot. BIOS, Master Boot Record, Bootloader, Kernel, Operating System. 
 
 - Most Installed Programs are not Open-Source, so I'm using Open-Source Coreboot (BIOS), Limine (Bootloader), and Serenity (Operating System), as examples.
 
