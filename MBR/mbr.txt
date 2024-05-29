@@ -3,6 +3,6 @@ mbr.txt
 The Master Boot Record contains the Bootloader.
 
 Installed MBR is not Open-Source. 
-Documentation and Resources can be found at Coreboot, and OSDev. 
+Documentation and Resources can be found at OSDev. 
 It has been coded with research, using Assembly, Python and C/C++ programming languages, and Visual Studio Code. 
 Tests run on QEMU Emulator, with NASM Assembler. 
