@@ -110,7 +110,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 - Artificial Intelligence: Zenith. 
 
-- Program: Acuity. 
+- Software: Acuity. 
 
 - All based on a few patent of mine, like, [IAA(S/E)A(-O) (c) (r) ISMC Corp. 2023]. 
 
@@ -126,14 +126,6 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ## Computer Science 
 
-### Electronics 
-
-- Basic Electronics has: Resistor, Capacitor, Inductor, Transformer, Diode, Transistor.
-
-- The transistor, a silicon semiconductor, was invented in 1956.
-
-- They won a Nobel Prize in Physics for it.
-
 ### Number Systems 
 
 - Number Systems: Decimal = 0-9, Binary = 0, 1, Octal = 0-8, Hexidecimal = 1-9 and a-f.
@@ -142,7 +134,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 - Each Number System has a: Radix, Base, Weight.
 
-- The Radix is the number of Decimals in each position.
+- The Radix is the number of Decimals in each Position.
 
 - The Base is the same as the Radix.
 
@@ -201,9 +193,26 @@ Hex: 0x55aa, 55aah.
 
 ```
 Little Endian: 0x55aa, 55aah.
-Big Endian: 0xaa55, aa55h.
-```
+Big Endian: 0xaa55, aa55h. 
 
+### Quantum Computing 
+
+- Normal computers are Binary. 1,or 0. A bit. 
+
+- Quantum computers use Qubits. 
+
+- Qubits can be in Superposition, both 1, and 0, simultaneously. 
+
+- This is called Quantum Entanglement. 
+
+### Electronics 
+
+- Basic Electronics has: Resistor, Capacitor, Inductor, Transformer, Diode, Transistor.
+
+- The transistor, a silicon semiconductor, was invented in 1956.
+
+- They won a Nobel Prize in Physics for it.
+```
 ### Digital Circuits 
 
 - There are two types of digital circuits: Combinational, Sequential. 
@@ -325,8 +334,6 @@ Opcode, Disp, Imm.
 - Each Programming Language's Intruction Code have their own Syntax.
 
 - Incorrect Syntax will generate an Error.
-
-- CyberSecurity consists of Debugging and Reverse Engineering Concepts.
 
 ### Data Structures and Algorithms
 
