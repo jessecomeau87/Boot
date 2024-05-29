@@ -204,7 +204,9 @@ Little Endian: 0x55aa, 55aah.
 Big Endian: 0xaa55, aa55h.
 ```
 
-### Digital Circuits
+### Digital Circuits 
+
+- There are two types of digital circuits: Combinational, Sequential. 
 
 - A Digital Circuit is Binary.
 
