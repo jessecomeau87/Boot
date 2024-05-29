@@ -2,6 +2,12 @@ mbr.txt
 
 The Master Boot Record contains the Bootloader.
 
+It is the Boot Sector, the first 512 bytes of a Hard Drive. 
+
+The first 446 bytes is the Bootstrap with 6 bytes of optional code. The next 4 x 16 bytes, 64 bytes, are for the four partitions. The last 2 bytes are for the Boot Signature. 
+
+
+
 Installed MBR is not Open-Source. 
 Documentation and Resources can be found at OSDev. 
 It has been coded with research, using Assembly, Python and C/C++ Programming Languages, and Visual Studio Code IDE. 
