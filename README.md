@@ -126,6 +126,8 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ## Computer Science 
 
+### Layers of Abstraction
+
 ### Number Systems 
 
 - Number Systems: Decimal = 0-9, Binary = 0, 1, Octal = 0-8, Hexidecimal = 1-9 and a-f.
@@ -218,11 +220,13 @@ Big Endian: 0xaa55, aa55h.
 
 - A Transistor has an Emitter, Base, Collector. 
 
-- It is a Current Controlled Switch.
+- It is a Current Controlled Switch. 
+
+- The Electrons would typically flow from the Emitter (N), to the Base (P), to the Collector (N). 
 
 ### Digital Circuits 
 
-- There are two types of digital circuits: Combinational, Sequential. 
+- There are two types of Digital Circuits: Combinational, Sequential. 
 
 - A Digital Circuit is Binary.
 
