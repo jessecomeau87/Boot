@@ -194,6 +194,7 @@ Hex: 0x55aa, 55aah.
 ```
 Little Endian: 0x55aa, 55aah.
 Big Endian: 0xaa55, aa55h. 
+```
 
 ### Quantum Computing 
 
@@ -211,8 +212,14 @@ Big Endian: 0xaa55, aa55h.
 
 - The transistor, a silicon semiconductor, was invented in 1956.
 
-- They won a Nobel Prize in Physics for it.
-```
+- They won a Nobel Prize in Physics for it. 
+
+- They use the letters N, and P to describe a Transistor. NPN, PNP. 
+
+- A Transistor has an Emitter, Base, Collector. 
+
+- It is a Current Controlled Switch.
+
 ### Digital Circuits 
 
 - There are two types of digital circuits: Combinational, Sequential. 
