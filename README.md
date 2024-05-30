@@ -244,6 +244,8 @@ Big Endian: 0xaa55, aa55h.
 
 - It's measured in Volts. 
 
+- Wires carry the Voltage. 
+
 - Three basic circuits are: Series, Parallel, Series/Parallel. 
 
 ### Digital Circuits
