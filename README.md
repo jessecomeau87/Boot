@@ -202,7 +202,9 @@ Big Endian: 0xaa55, aa55h.
 
 - Normal computers are Binary. 1,or 0. A bit. 
 
-- Quantum computers use Qubits. 
+- Bit stands for Binary Digit. 
+
+- Quantum computers use Qubits, for Quantum Binary Digits. 
 
 - Qubits can be in Superposition, both 1, and 0, simultaneously. 
 
@@ -216,7 +218,7 @@ Big Endian: 0xaa55, aa55h.
 
 - They won a Nobel Prize in Physics for it. 
 
-- They use the letters N, and P to describe a Transistor. NPN, PNP. 
+- We use the letters N, and P to describe a Transistor. NPN, PNP. 
 
 - A Transistor has an Emitter, Base, Collector. 
 
@@ -232,11 +234,11 @@ Big Endian: 0xaa55, aa55h.
 
 - It uses Boolean Algebra and the Truth Table.
 
-- I has Input/Output.
+- It has Input/Output.
 
 - It can have Gates.
 
-- It can have Read/Write Capabilities.
+- It can have Read/Write capabilities.
 
 - 1 or more circuits can form a Latch. 
 
