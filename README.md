@@ -248,7 +248,7 @@ Big Endian: 0xaa55, aa55h.
 
 - There are two types of Digital Circuits: Combinational, Sequential. 
 
-- It uses Boolean Algebra and the Truth Table. Mainly due to Logic. 
+- It uses Boolean Algebra and the Truth Table. (Mainly due to Logic.) 
 
 - It has Input/Output.
 
