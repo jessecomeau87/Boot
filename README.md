@@ -98,7 +98,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 - Rectitude model, fast, durable, affordable. 
 
-- Construct develooment, the PowerHouse Ensemble: 
+- The Construct development: the PowerHouse Ensemble; 
 
 - CPU: Wise.
 
