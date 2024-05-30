@@ -21,10 +21,10 @@ Modernity Distribution Services
 "Future Development"
 Hardware, Operating Systems, Software.
 
-(Education) Phd: Business Psychology.
+(Education) Phd: Business Psychology/Computer Science.
 University of Chicago
 "Knowledge is Power, Ignorance is Bliss"
-Industrial Organization
+Industrial Organization, Full-System Simulation. 
 
 Head Office:
 Dover, De
@@ -90,11 +90,15 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ### Product
 
-- Brought to you by Reactor. 
+- Brought to you by Reactor. Owned and Operated by Ilios Selene. . 
 
-- I want to create my own Computer and Cell Phone, with these components: 
+- I want to create my own Computer, Adamant, and Cell Phone, Ethereal, with this development: 
  
-- Brought to you by Reactor. 
+- Reactor Computing Technologies. 
+
+- Rectitude model, fast, durable, affordable. 
+
+- Construct develooment, the PowerHouse Ensemble: 
 
 - CPU: Wise.
 
@@ -112,9 +116,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 - Software: Acuity. 
 
-- All based on a few patent of mine, like, [IAA(S/E)A(-O) (c) (r) ISMC Corp. 2023]. 
-
-- "Reactor", "Rectitude Adamant Construct", "Rectitude Ethereal Virtue", "Wise", "Keen", "Reason", "Guru", "Valliant", "Nexus", "Zenith", and "Acuity", and patents, are all my ideas, and they are protected. 
+- "Reactor Computing Technologies", "Rectitude Adamant Construct", "Rectitude Ethereal Construct", "Wise", "Keen", "Reason", "Guru", "Valliant", "Nexus", "Zenith", and "Acuity", are all my ideas, and they are protected. 
 
 Let's Go!
 
