@@ -236,7 +236,7 @@ Big Endian: 0xaa55, aa55h.
 
 - A Digital Circuit is Binary.
 
-- It uses Boolean Algebra and the Truth Table.
+- It uses Boolean Algebra and the Truth Table. Mainly due to Logic. 
 
 - It has Input/Output.
 
@@ -246,13 +246,17 @@ Big Endian: 0xaa55, aa55h.
 
 - 1 or more circuits can form a Latch. 
 
-- A Latch can store 1 bit.
+- A Latch can store 1 bit. Memory. 
+
+- Memory is Octal. 
 
 - A Group of Latches form a Register.
 
 - A grid of Latches with MultiPlexors form a Matrix.
 
 - An Address is the Intersection of a Matrix. Row and Column.
+
+- An Address is Hexadecimal. 
 
 ### Registers 
 
