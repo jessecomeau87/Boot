@@ -232,6 +232,12 @@ Big Endian: 0xaa55, aa55h.
 
 ### Digital Circuits 
 
+- An electric current is Decimal. 
+
+- It's measured in Volts. 
+
+- (I think they are converted through ElectroMechanics.)
+
 - There are two types of Digital Circuits: Combinational, Sequential. 
 
 - A Digital Circuit is Binary.
