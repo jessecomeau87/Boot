@@ -236,6 +236,10 @@ Big Endian: 0xaa55, aa55h.
 
 - It's measured in Volts. 
 
+- Three basic circuits are: Series, Parallel, Series/Parallel. 
+
+### Digital Circuits
+
 - (I think the conversion, Analog to Digital, is through ElectroMechanics.) 
 
 - A Digital Circuit is Binary. 
@@ -244,9 +248,7 @@ Big Endian: 0xaa55, aa55h.
 
 - A single wire can carry 1 bit. 
 
-- 1 bit is roughly around 0.6V (off < 0.6V < on). (Current Control Switch) 
-
-### Digital Circuits
+- 1 bit is roughly around 0.6V (off < 0.6V < on). (Current Control Switch)
 
 - There are two types of Digital Circuits: Combinational, Sequential. 
 
@@ -331,6 +333,8 @@ R: 64 bit.
 - A Clock Cycle is the time taken between two pulses of an oscillator.
 
 - A CPU performs a Clock Cycle, Machine Cycle, Instruction Cycle, respectively.
+
+- Then the Instruction is executed. 
 
 ### Instruction Format 
 
