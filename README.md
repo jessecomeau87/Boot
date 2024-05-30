@@ -246,6 +246,8 @@ Big Endian: 0xaa55, aa55h.
 
 - 1 bit is roughly around 0.6V (off < 0.6V < on). (Current Control Switch) 
 
+### Digital Circuits
+
 - There are two types of Digital Circuits: Combinational, Sequential. 
 
 - It uses Boolean Algebra and the Truth Table. (Mainly due to Logic.) 
@@ -259,6 +261,8 @@ Big Endian: 0xaa55, aa55h.
 - 1 or more circuits can form a Latch. 
 
 - A Latch can store 1 bit. Memory. 
+
+### Memory
 
 - Memory is Octal. 
 
