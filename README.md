@@ -238,7 +238,9 @@ Big Endian: 0xaa55, aa55h.
 
 - (I think the conversion, Analog to Digital, is through ElectroMechanics.) 
 
-- A Digital Circuit is Binary.
+- A Digital Circuit is Binary. 
+
+- It's measured in bits. 
 
 - There are two types of Digital Circuits: Combinational, Sequential. 
 
