@@ -56,7 +56,15 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 - Main will be put in main.file_extension.
 
-- If you want to add a file, put your initials, example_initials.file_extension.
+- If you want to add a file, put your initials, example_initials.file_extension. 
+
+- Most files will be in .asm, and compiled and linked to an .o, and .bin files. 
+
+- Remember, a computer only understands machine, 1s and 0s. 
+
+- I have a Discord Server where we can discuss. Ilios Selene's Reactor. 
+
+- They're not many, but for the sake of (what's the word?), I put my personal thoughts inside () in the README.md file. 
 
 Nice Project!
 
@@ -84,7 +92,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ### Education
 
-- I studied Business Administration, and Computer Science, which is why I chose Business Management and IT as an Industry. 
+- I studied Business Administration, and Computer Science, hence, Business Management and IT as an Industry. 
 
 - Career: Business Management and IT. Hobby: Music and Sports. 
 
@@ -240,7 +248,7 @@ Big Endian: 0xaa55, aa55h.
 
 ### Digital Circuits
 
-- (I think the conversion, Analog to Digital, is through ElectroMechanics.) 
+- (The Conversion, Analog to Digital, is through ElectroMechanics.) 
 
 - A Digital Circuit is Binary. 
 
@@ -248,7 +256,7 @@ Big Endian: 0xaa55, aa55h.
 
 - A single wire can carry 1 bit. 
 
-- 1 bit is roughly around 0.6V (off < 0.6V < on). (Current Control Switch)
+- (1 bit is roughly around 0.6V) (off < 0.6V < on). (Current Control Switch)
 
 - There are two types of Digital Circuits: Combinational, Sequential. 
 
