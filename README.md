@@ -245,7 +245,6 @@ Big Endian: 0xaa55, aa55h.
 - A single wire can carry 1 bit. 
 
 - 1 bit is roughly around 0.6V (off < 0.6V < on).  (Current Control Switch) 
-
 - There are two types of Digital Circuits: Combinational, Sequential. 
 
 - It uses Boolean Algebra and the Truth Table. (Mainly due to Logic.) 
