@@ -236,7 +236,7 @@ Big Endian: 0xaa55, aa55h.
 
 - It's measured in Volts. 
 
-- (I think they are converted through ElectroMechanics.)
+- (I think they are converted, Analog to Digital, through ElectroMechanics.)
 
 - There are two types of Digital Circuits: Combinational, Sequential. 
 
