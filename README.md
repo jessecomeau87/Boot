@@ -230,7 +230,7 @@ Big Endian: 0xaa55, aa55h.
 
 - The Electrons would typically flow from the Emitter (N), to the Base (P), to the Collector (N). 
 
-### Digital Circuits 
+### Circuits 
 
 - An electric current is Analog and in Decimal. 
 
@@ -241,6 +241,10 @@ Big Endian: 0xaa55, aa55h.
 - A Digital Circuit is Binary. 
 
 - It's measured in bits. 
+
+- A single wire can carry 1 bit. 
+
+- 1 bit is roughly around 06V.
 
 - There are two types of Digital Circuits: Combinational, Sequential. 
 
