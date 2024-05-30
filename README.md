@@ -144,15 +144,17 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 - The Weight is the Base and the Power Of.
 
-- The Power Of is the number of the Position.
+- The Power Of is the number of the Position. 
 
-- Binary: 1 = on, 0 = off.
+- Integers to the left, Fractionals to the right. 
 
-- Each Position signifies 1 bit.
+- Decimal: Has no Value. 
 
-- 8 bits = 1 byte.
+- Binary: [1 = (on, yes, true, high)], or, [0 = (off, no, false,low)]. = 1 bit.
 
-- Prefix = 0x, Suffix = h, signifies Hexidecimal.
+- Octal: 8 bits = 1 byte.
+
+- Hexadecimal: Prefix = 0x, Suffix = h. 
 
 - Little Endian = Least significant byte first.
 
