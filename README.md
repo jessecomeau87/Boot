@@ -98,8 +98,6 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ### Product
 
-### Product
-
 - Brought to you by Reactor. Owned and Operated by Ilios Selene. . 
 
 - Reactor Computing Technologies. 
