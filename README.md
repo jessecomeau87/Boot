@@ -209,7 +209,7 @@ Big Endian: 0xaa55, aa55h.
 
 ### Quantum Computing 
 
-- Normal computers are Binary. 1,or 0. A bit. 
+- Normal computers are Binary. 1, or, 0. A bit. 
 
 - Bit stands for Binary Digit. 
 
