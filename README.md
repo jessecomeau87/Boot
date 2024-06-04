@@ -98,35 +98,34 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ### Product
 
+### Product
+
 - Brought to you by Reactor. Owned and Operated by Ilios Selene. . 
 
-- I want to create my own Computer, Adamant, and Cell Phone, Ethereal, with this development: 
- 
 - Reactor Computing Technologies. 
 
-- Rectitude model, fast, durable, affordable. 
+- Computer, Adamant, and Cell Phone, Ethereal: 
 
-- The Construct development: the PowerHouse Ensemble; 
+- Rectitude, Constellation, and Elemental Lineups. 
 
-- CPU: Wise.
+- Rectitude: Upright, Constellation: Spacious, Elemental: Immediate. 
 
-- Instruction Set: Keen.
+- The Construct, and Entity Developments. 
 
-- Kernel: Reason.
+- Construct: Exclusive, Entity: Personal. 
 
-- Operating System: Guru.
- 
-- CyberSecurity: Valliant. 
- 
-- Cloud: Nexus. 
+- Construct: CPU: Wise, Instruction Set: Keen, Kernel: Reason, Operating System: Guru, CyberSecurity: Valliant, Cloud: Nexus, Artificial Intelligence: Zenith, Host: Eunoia, Software: Acuity. 
 
-- Artificial Intelligence: Zenith. 
+- Entity: CPU: Arise, Instruction Set: Emerge, Kernel: Delegate, Operating System: Conscious, CyberSecurity: Sentinel, Cloud: Synapse, Artificial Intelligence: Sentient, Host: Desire, Software: Aware. 
 
-- Software: Acuity. 
+- "Reactor Computing Technologies", "Adamant", "Ethereal", "Rectitude", "Constellation", "Elemental", "Construct", "Entity", "Wise", "Keen", "Reason", "Guru", "Valliant", "Nexus", "Zenith", "Eunoia", and "Acuity", "Arise", "Emerge", "Delegate", "Conscious", "Sentinel", "Synapse", "Sentient", "Desire", and "Aware", are all my ideas, and they are protected. 
 
-- "Reactor Computing Technologies", "Rectitude Adamant Construct", "Rectitude Ethereal Construct", "Wise", "Keen", "Reason", "Guru", "Valliant", "Nexus", "Zenith", and "Acuity", are all my ideas, and they are protected. 
+- RCT: BIOS, Master Boot Record, Bootloader. 
+
+- All Open Source. 
 
 Let's Go!
+
 
 
 
