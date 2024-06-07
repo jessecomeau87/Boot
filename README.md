@@ -1,4 +1,4 @@
-![IliosSeleneBlack.jpg](C:\Users\guita\OneDrive\Business\Pictures\Logo)
+![IliosSeleneBlack.png](C:\Users\guita\OneDrive\Business\Pictures\Logo)
 
 # Boot
 
