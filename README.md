@@ -1,3 +1,5 @@
+<img title="IliosSeleneBlack.jpg" alt="Alt text" src="C:\Users\guita\OneDrive\Business\Pictures\Logo">
+
 # Boot
 
 # Booting Process
