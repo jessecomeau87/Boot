@@ -78,9 +78,9 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 - Anyone can Read/Write. 
 
-- Example will be put in `example.file_extension`. 
+- Examples will be put in `example.file_extension`. 
 
-- Main will be put in `main.file_extension`.
+- Mains will be put in `main.file_extension`.
 
 - If you want to add a file, put your initials, `initials_example.file_extension`. 
 
