@@ -1,3 +1,6 @@
+![image](https://github.com/guitarskickass/Boot/assets/168550320/088a6452-9a9e-460c-929f-95fd9dd33661)
+
+
 # Boot
 
 # Booting Process
