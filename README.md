@@ -1,4 +1,4 @@
-<img title="IliosSeleneBlack.jpg" alt="AL" src="C:\Users\guita\OneDrive\Business\Pictures\Logo">
+<img title="IliosSeleneBlack.jpg" src="C:\Users\guita\OneDrive\Business\Pictures\Logo">
 
 # Boot
 
