@@ -78,11 +78,11 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 - Anyone can Read/Write. 
 
-- Example will be put in example.file_extension. 
+- Example will be put in `example.file_extension`. 
 
-- Main will be put in main.file_extension.
+- Main will be put in `main.file_extension`.
 
-- If you want to add a file, put your initials, example_initials.file_extension. 
+- If you want to add a file, put your `initials, example_initials.file_extension`. 
 
 - Most files will be in `.asm`, and compiled and linked to an `.o`, and `.bin` files. 
 
