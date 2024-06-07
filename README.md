@@ -1,5 +1,3 @@
-![IliosSeleneBlack.png](C:\Users\guita\OneDrive\Business\Pictures\Logo\IliosSeleneBlack.png)
-
 # Boot
 
 # Booting Process
