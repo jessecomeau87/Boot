@@ -1,12 +1,12 @@
 # Boot
 
-# Booting Process
-## BIOS, Master Boot Record, Bootloader, Kernel, Operating System.
-## Assembler, Linker, Compiler. 
+## Booting Process
+### BIOS, Master Boot Record, Bootloader, Kernel, Operating System.
+### Assembler, Linker, Compiler. 
 
-# Computer Science
-## Layers of Abstraction. 
-## Electrical, Computer, Engineering, Architecture.
+## Computer Science
+### Layers of Abstraction. 
+### Electrical, Computer, Engineering, Architecture.
 <p><br>
 <br>
 <br>
@@ -72,7 +72,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 <br>
 </p>
 
-## Important Information
+### Important Information
 
 - Each folder containing a Program has a .txt file with a brief description.
 
@@ -106,8 +106,8 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 <br>
 </p>
 
-## Introduction 
-### Project
+### Introduction 
+#### Project
 
 - My first project is to create a BIOS, a Master Boot Record, a Bootloader, a Kernel, and an Operating System, for X86 ISAs made by Intel and AMD.
 
@@ -121,13 +121,13 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 - I am using Visual Studio Code IDE, with knowledge of Decimal, Binary, Octal, and Hexadecimal Number Systems, Assembly, Python, and C/C++ Programming Languages. 
 
-### Education
+#### Education
 
 - I studied Business Administration, and Computer Science, hence, Business Management and IT as an Industry. 
 
 - Career: Business Management and IT. Hobby: Music and Sports. 
 
-### Product
+#### Product
 
 - Brought to you by Reactor. Owned and Operated by Ilios Selene. . 
 
@@ -173,10 +173,10 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 <br>
 </p>
 
-## Computer Science 
-### Layers of Abstraction 
+### Computer Science 
+#### Layers of Abstraction 
 
-### Discrete Math
+#### Discrete Math
 
 - Sets, Set Theory, Set Algebra.
 
@@ -184,7 +184,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 - Functions
 
-### Number Systems 
+#### Number Systems 
 
 - Number Systems: Decimal = 0-9, Binary = 0, 1, Octal = 0-8, Hexidecimal = 1-9 and a-f.
 
@@ -260,7 +260,7 @@ Little Endian: 0x55aa, 55aah.
 Big Endian: 0xaa55, aa55h. 
 ```
 
-### Quantum Computing 
+#### Quantum Computing 
 
 - Normal computers are Binary. 1, or, 0. A bit. 
 
@@ -272,7 +272,7 @@ Big Endian: 0xaa55, aa55h.
 
 - This is called Quantum Entanglement. 
 
-### Electronics 
+#### Electronics 
 
 - Basic Electronics has: Resistor, Capacitor, Inductor, Transformer, Diode, Transistor.
 
@@ -288,7 +288,7 @@ Big Endian: 0xaa55, aa55h.
 
 - The Electrons would typically flow from the Emitter (N), to the Base (P), to the Collector (N). 
 
-### Analog Circuits 
+#### Analog Circuits 
 
 - An electric current is Analog and in Decimal. 
 
@@ -298,7 +298,7 @@ Big Endian: 0xaa55, aa55h.
 
 - Three basic circuits are: Series, Parallel, Series/Parallel. 
 
-### Digital Circuits
+#### Digital Circuits
 
 - (The Conversion, Analog to Digital, is through ElectroMechanics.) 
 
@@ -312,7 +312,7 @@ Big Endian: 0xaa55, aa55h.
 
 - There are two types of Digital Circuits: Combinational, Sequential. 
 
-### Adders 
+#### Adders 
 
 - A Half-Adder is a XOR and AND Gate. 
 
@@ -328,7 +328,7 @@ Big Endian: 0xaa55, aa55h.
 
 - There are circuits for Adding, Subtracting, Multiplying, and Division. 
 
-### Digital Circuits wih Logic Gates
+#### Digital Circuits wih Logic Gates
 
 - They use Boolean Algebra and the Truth Table. (Mainly due to Logic.) 
 
@@ -342,7 +342,7 @@ Big Endian: 0xaa55, aa55h.
 
 - A Latch can store 1 bit. Memory. 
 
-### Memory
+#### Memory
 
 - Memory is Octal. 
 
@@ -354,7 +354,7 @@ Big Endian: 0xaa55, aa55h.
 
 - An Address is Hexadecimal. 
 
-### Registers 
+#### Registers 
 
 - 32 bit General Register example.
 
@@ -397,7 +397,7 @@ E: 32 bit.
 R: 64 bit.
 ```
 
-### Buses
+#### Buses
 
 - There are Data, Address, and Control Buses.
 
@@ -405,11 +405,11 @@ R: 64 bit.
 
 - They carry Data. 
 
-### Ports
+#### Ports
 
 - Ports connect outside In/Out Devices. 
 
-### Mainboard
+#### Mainboard
 
 - The Mainboards connects all components and a computer together. 
 
@@ -429,13 +429,13 @@ R: 64 bit.
 
 - There are two types: Real-Time, Software Clocks.
 
-### CPU
+#### CPU
 
 - There are three main parts to the Central Processing Unit (CPU): The Control Unit (CU), the Arithmetic and Logic Unit (ALU), and the Memory Unit. 
 
 - It's four Main Functions: Input, Processing, Memory, Output. 
 
-### CU
+#### CU
 
 - The Control Unit manages computer ressources. 
 
@@ -443,7 +443,7 @@ R: 64 bit.
 
 - It will configure a CPU to manipulate the data correctly between instructions.
 
-### ALU 
+#### ALU 
 
 - Performs Mathematical Operations: Arithmitic and Logical Computation.
 
@@ -453,7 +453,7 @@ R: 64 bit.
 
 - It has two 8 bit Inputs. A 4 bit OpCode. An 8 bit Output. Overflow, Zero, Negative Flags. 
 
-### Memory Unit 
+#### Memory Unit 
 
 - The Memory Unit consists of Registers.
 
@@ -467,7 +467,7 @@ R: 64 bit.
 
 - It also has Flag Registers. 
 
-### CPU Purpose
+#### CPU Purpose
 
 - The CPU's purpose is to execute Programs.
 
@@ -485,7 +485,7 @@ R: 64 bit.
 
 - Then the Instruction is executed. 
 
-### Instruction Format 
+#### Instruction Format 
 
 - 16 bit Instruction Format:
 
@@ -499,13 +499,13 @@ Prefix, OpCode, Mod-R/M, SIB, Disp, Imm.
 Opcode, Disp, Imm.
 ```
 
-### Instruction Set
+#### Instruction Set
 
 - A group of commands for a CPU in Machine Language. 
 
 - Can refer to all possible or subset instructions for a CPU. 
 
-### Language Processing System
+#### Language Processing System
 
 - Process: Pre-Processor, Compiler, Assembler, Linker, Loader, Memory.
 
@@ -519,7 +519,7 @@ Opcode, Disp, Imm.
 
 - Loader/Memory: Loads Executable files into Memory and executes them.
 
-### Programming Languages 
+#### Programming Languages 
 
 - There are Low Level and High Level Programming.
 
@@ -533,13 +533,13 @@ Opcode, Disp, Imm.
 
 - They guide the rules that guide the Logic of Hardware and Software Design. 
 
-### Cyber Security
+#### Cyber Security
 
 - It consists mainly of Reverse-Engineering of Debugging Tehcniques. 
 
 - Ethical Hacking. 
 
-### Data Structures and Algorithms
+#### Data Structures and Algorithms
 
 - Data Structures and Algorithms are an important part of Computer Science.
 
@@ -553,7 +553,7 @@ Opcode, Disp, Imm.
 
 - They help CPUs solve Problems.
 
-### Operating System
+#### Operating System
 
 - An Operating System is an Interface between User Applications and Hardware. 
 
@@ -567,7 +567,7 @@ Opcode, Disp, Imm.
 
 - It has Threads.
  
-### Cloud
+#### Cloud
 
 - Cloud is a Network.
 
@@ -579,7 +579,7 @@ Opcode, Disp, Imm.
 
 - Service Models: Infrastructure, Platform, Software, Identity, and Network as a Service.
 
-### Artificial Intelligence
+#### Artificial Intelligence
 
 - We are trying to get CPUs to think like Humans.
 
@@ -591,7 +591,7 @@ Opcode, Disp, Imm.
 
 - Machine Learning is a sub of Artificial Intelligence.
 
-### Example with Layers of Abstraction
+#### Example with Layers of Abstraction
 
 - Sorting and Classification Programs written in pseudocode from Data Structures and Algorithms for Deep Learning of Neural Networks of Artificial Intelligence using Discrete Math.
 
@@ -609,8 +609,8 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 <br>
 </p>
 
-## Boot Process
-### Intro
+### Boot Process
+#### Intro
 
 - There are two kinds of Booting: Cold and Warm Booting.
  
@@ -618,7 +618,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
  
 - The Instruction Pointer (EIP) holds the Memory Addresses of the Instructions.
  
-### Reset Vector
+#### Reset Vector
 
 - The Reset vector is at `0xFFFFFFF0`.
  
@@ -626,7 +626,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 - The Motherboard ensures that the Instruction at `0xFFFFFFF0` is a Jump to the memory location mapped to the BIOS Entry Point.  
 
-### Bios
+#### Bios
 
 - We start off in Real Mode. 
 
@@ -646,7 +646,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 - The BIOS will load the Master Boot Record at `0x7c00`, containing the Bootloader.
 
-### Master Boot Record 
+#### Master Boot Record 
 
 - Concept:
 
@@ -678,7 +678,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 - The Master Boot Record will load the Bootloader. Stage 1 and Stage 2 Code. 
 
-### Bootloader
+#### Bootloader
 
 - It has First Stage, Second Stage, Embedded and Multi Stage, and Network Booting. 
 
@@ -686,7 +686,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 - The Bootloader will start the Kernel at `0x100000`. 
 
-### Kernel 
+#### Kernel 
 
 - We are in Protected Mode.
 
@@ -704,7 +704,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 - The Kernel initializes the Operating System.
 
-### Operating System
+#### Operating System
 
 - The Operating System is an Interface between User Applications and Hardware. 
 
@@ -726,7 +726,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 <br>
 </p>
 
-## Conclusion 
+### Conclusion 
 
 - Mined from Quartz, Silicon Ingots are sliced into Wafers, then Masked, Doped and Etched, to create a Die.
 
