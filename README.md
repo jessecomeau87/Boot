@@ -1,6 +1,3 @@
-<img title="IliosSeleneBlack.png" alt="Alt text" src="[/images/boo.svg](https://iliosselene.com/wp-content/uploads/2024/06/IliosSeleneBlack.png
-)">
-
 # Boot
 
 # Booting Process
