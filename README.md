@@ -34,7 +34,7 @@ Modernity Distribution Services<br>
 "Future Development"<br>
 Hardware, Operating Systems, Software.<br>
 <br>
-(Education) Phd: Business Psychology/Computer Science.<br>
+(Education) Phd: Business Administratn/Computer Science.<br>
 University of Chicago<br>
 "Knowledge is Power, Ignorance is Bliss"<br>
 Industrial Organization, Full-System Simulation.<br>
