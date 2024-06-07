@@ -74,7 +74,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ### Important Information
 
-- Each folder containing a Program has a .txt file with a brief description.
+- Each folder containing a Program has a `.txt` file with a brief description.
 
 - Anyone can Read/Write. 
 
