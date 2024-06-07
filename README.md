@@ -174,7 +174,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 - Relations
 
--Functions
+- Functions
 
 ### Number Systems 
 
