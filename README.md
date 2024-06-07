@@ -145,9 +145,17 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 - Entity: CPU: Arise, Instruction Set: Emerge, Kernel: Delegate, Operating System: Conscious, CyberSecurity: Sentinel, Cloud: Synapse, Artificial Intelligence: Sentient, Host: Desire, Software: Aware. 
 
-- "Reactor Computing Technologies", "Adamant", "Ethereal", "Rectitude", "Constellation", "Elemental", "Construct", "Entity", "Wise", "Keen", "Reason", "Guru", "Valliant", "Nexus", "Zenith", "Eunoia", and "Acuity", "Arise", "Emerge", "Delegate", "Conscious", "Sentinel", "Synapse", "Sentient", "Desire", and "Aware", are all my ideas, and they are protected. 
+- "Reactor Computing Technologies", "Adamant", "Ethereal", "Rectitude", "Constellation", "Elemental", "Construct", "Entity", "Wise", "Keen", "Reason", "Guru", "Valliant", "Nexus", "Zenith", "Eunoia", and "Acuity", "Arise", "Emerge", "Delegate", "Conscious", "Sentinel", "Synapse", "Sentient", "Desire", and "Aware", "Arise", "Emerge", "Delegate", "Conscious", "Sentinel", "Synapse", "Sentient", "Desire", and "Aware", are all my ideas, and they are protected. 
 
-- RCT: BIOS, Master Boot Record, Bootloader; Assembler, Compiler, Interpreter.
+- RCT: BIOS, Bootloader.
+
+- ProSync: Assembler, Linker, Compiler.
+
+- Immersion: IDE, Interpreter.
+
+- SynTax: Programming Language.
+
+- BizSense: Software.
 
 - All Open Source. 
 
@@ -624,7 +632,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 - The BIOS is the first thing to boot.
 
-- The BIOS is stored on ROM and FLASH Memory, at 0xFFFFF
+- The BIOS is stored on ROM and FLASH Memory, at `0xFFFFF`.
 
 - It copies itself to RAM, Shadowing. 
 
@@ -640,6 +648,8 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ### Master Boot Record 
 
+- Concept:
+
 - When the BIOS looks for Bootable Devices:
  
 - It calls code stored in the Master Boot Record at the start of disk 0. 
@@ -649,6 +659,10 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 - The next 6 bytes are for Optional Code. 
 
 - The next 64 bytes (4 x 16) are for four Partion Code. 
+
+- The last 2 bytes are for Boot Signature, `0x55, 0xaa`.
+
+- Explain: 
 
 - The BIOS iterates through the Master Boot Record/Boot Sector, the first 512 bytes.
 
