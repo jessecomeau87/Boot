@@ -108,7 +108,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 <br>
 <br>
 </p>
-## Introduction
+## Introduction 
 ### Project
 
 - My first project is to create a BIOS, a Master Boot Record, a Bootloader, a Kernel, and an Operating System, for X86 ISAs made by Intel and AMD.
