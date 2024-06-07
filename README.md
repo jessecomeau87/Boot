@@ -84,7 +84,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 - If you want to add a file, put your initials, example_initials.file_extension. 
 
-- Most files will be in .asm, and compiled and linked to an .o, and .bin files. 
+- Most files will be in `.asm`, and compiled and linked to an `.o`, and `.bin` files. 
 
 - Remember, a computer only understands machine, 1s and 0s. 
 
