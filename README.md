@@ -413,7 +413,7 @@ R: 64 bit.
 
 - The Mainboards connects all components and a computer together. 
 
-### Clock 
+#### Clock 
 
 - A Chip with a Crystal that Vibrates when Electricity is applied.
 
