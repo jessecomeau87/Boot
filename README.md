@@ -1,11 +1,9 @@
 # Boot
-<p><br>
-</p>
+
 # Booting Process
 ## BIOS, Master Boot Record, Bootloader, Kernel, Operating System.
 ## Assembler, Linker, Compiler. 
-<p><br>
-</p>
+
 # Computer Science
 ## Layers of Abstraction. 
 ## Electrical, Computer, Engineering, Architecture.
@@ -22,7 +20,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 <br>
 <br>
 </p>
-<p></p>Ilios Selene "Dedicated Solutions"<br>
+<p>Ilios Selene "Dedicated Solutions"<br>
 Business Managemnt and IT<br>
 Conglomerate<br>
 <br>
@@ -58,8 +56,8 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 <br>
 <br>
 <br>
-<br>
 </p>
+
 ## README.md
 <p><br>
 <br>
@@ -72,8 +70,8 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 <br>
 <br>
 <br>
-<br>
 </p>
+
 ## Important Information
 
 - Each folder containing a Program has a .txt file with a brief description.
@@ -106,8 +104,8 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 <br>
 <br>
 <br>
-<br>
 </p>
+
 ## Introduction 
 ### Project
 
@@ -165,10 +163,18 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 <br>
 <br>
 <br>
-<br>
 </p>
+
 ## Computer Science 
-### Layers of Abstraction
+### Layers of Abstraction 
+
+### Discrete Math
+
+- Sets, Set Theory, Set Algebra.
+
+- Relations
+
+-Functions
 
 ### Number Systems 
 
@@ -577,6 +583,10 @@ Opcode, Disp, Imm.
 
 - Machine Learning is a sub of Artificial Intelligence.
 
+### Example with Layers of Abstraction
+
+- Sorting and Classification Programs written in pseudocode from Data Structures and Algorithms for Deep Learning of Neural Networks of Artificial Intelligence using Discrete Math.
+
 This Should Help.
 <p><br>
 <br>
@@ -589,8 +599,8 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 <br>
 <br>
 <br>
-<br>
 </p>
+
 ## Boot Process
 ### Intro
 
@@ -700,25 +710,27 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 <br>
 <br>
 <br>
-<br>
 </p>
-## Conclusion
 
-- Computer Science helps explain what a Cpu is and does. 
- 
-- The Booting Process helps explain what happens when you turn your computer on. 
+## Conclusion 
 
-- Electrical Engineering and Cpu Architecture form most of the Design.
+- Mined from Quartz, Silicon Ingots are sliced into Wafers, then Masked, Doped and Etched, to create a Die.
+
+- Engineering and Architecture form all of the Design.
 
 - ElectroMechanics, Transistor, play a huge role in a computer. 
 
-- Everything is in Layers of Abstraction. 
+- Computer Science helps explain what a Cpu is and does. 
 
-- This is the Boot Process. Cold/Warm Boot. BIOS, Master Boot Record, Bootloader, Kernel, Operating System.
+- It is in Layers of Abstraction. 
+ 
+- The Booting Process helps explain what happens when you turn your computer on. 
 
-- Most Installed Programs are not Open-Source, so I'm using Open-Source Coreboot (BIOS), Limine (Bootloader), and Serenity (Operating System), as examples.
+- It is Cold/Warm Boot, BIOS, Master Boot Record, Bootloader, Kernel, and Operating System.
 
-- All Programs coded with research, using Visual Studio Code IDE, with knwoledge of Decimal, Binary, Octal, Hexadecimal Number Systems, with Assembly, Python, C/C++ Programming Languages, finally, Electrical Engineering, Computer Architecture, which are a huge part of Computer Science. 
+- Most Installed Programs are not Open-Source.
+
+- All Programs coded with research, using Visual Studio Code IDE, with knwoledge of Decimal, Binary, Octal, Hexadecimal Number Systems, and with Assembly, Python, C/C++ Programming Languages, and finally, with Engineering,  and Architecture, which are a huge part of Computer Science. 
 
 - For testing the Programs, Emulated with QEMU, and Assembled with NASM.
 
