@@ -178,11 +178,11 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 #### Discrete Math
 
-- Sets, Set Theory, Set Algebra.
+- Set Theory: Types of Sets, Operations, Set Algebra.
 
-- Relations
+- Relations: Types of Relations, Closure Properties, Equivalence, Partial Ordered. 
 
-- Functions
+- Functions: Types, Identity, Composite, Mathematical. 
 
 #### Number Systems 
 
