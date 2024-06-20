@@ -21,7 +21,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 <br>
 </p>
 <p>Ilios Selene "Dedicated Solutions"<br>
-Business Managemnt and IT<br>
+Business Management and IT<br>
 Conglomerate<br>
 <br>
 (Business) Entrepreneur: Owner/Founder, CEO, Director, Partner.<br>
@@ -176,6 +176,28 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ### Computer Science 
 #### Layers of Abstraction 
 
+#### Math 
+
+- Theory, Analysis.
+
+- Object, Function, Expression, Space, Structure, Ring, Field, Set, Group, Element, Symbol, Operation, Formula, Solution. 
+
+#### Algebra 
+
+- Elementary, Linear, Abstract, Universal. 
+
+#### Calculus 
+
+- Integral, Differentiation, Inverse. 
+Normal, Reverse. 
+Limit. 
+
+#### Probability 
+
+- Theoretical, Experimental, Axiomatic. 
+
+- Numerical Description, Event, Occurrence. 
+
 #### Discrete Math
 
 - Set Theory: Types of Sets, Operations, Set Algebra.
@@ -183,6 +205,20 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 - Relations: Types of Relations, Closure Properties, Equivalence, Partial Ordered. 
 
 - Functions: Types, Identity, Composite, Mathematical. 
+
+#### Linear Algebra 
+
+- Tensors, Vectors, Scalars, Matrixes. 
+
+#### Limit Calculus
+
+- Approaching Limit. 
+
+#### Axiomatic Probability 
+
+- Probability of an Event: 0 - 1. 
+
+- Mean, Deviation, Distribution 
 
 #### Number Systems 
 
